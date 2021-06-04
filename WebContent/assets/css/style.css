@@ -1,0 +1,200 @@
+@media only screen and (max-width: 991px) {
+    .principal {
+        display: none;
+    }
+    .low-res {
+        display: block !important;
+    }
+}
+
+/* TexGyreHerosRegular: http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/index_html/ */
+@font-face {
+    font-family: "TeXGyreHerosRegular";
+    src: url("../fonts/texgyreheros-regular-webfont.eot");
+    src: url("../fonts/texgyreheros-regular-webfont.eot?iefix") format("eot"), url("../fonts/texgyreheros-regular-webfont.woff2") format("woff2"), url("../fonts/texgyreheros-regular-webfont.woff") format("woff"), url("../fonts/texgyreheros-regular-webfont.ttf") format("truetype"), url("../fonts/texgyreheros-regular-webfont.svg") format("svg");
+}
+
+html,
+body {
+    background: #272b30;
+    color: #c8c8c8;
+    font-family: "TeXGyreHerosRegular", Arial, sans-serif;
+    font-weight: 300;
+    min-height: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 992px;
+}
+
+.contenido {
+    min-height: 200px;
+}
+
+.contenido,
+.pie,
+.navegacion {
+    background: #43484f;
+    border-color: #0c0d0e !important;
+}
+
+.contenido__area-desarrollo {
+    background: rgb(67, 72, 79);
+    background: -moz-radial-gradient(circle, rgba(67, 72, 79, 1) 25%, rgba(39, 43, 48, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(67, 72, 79, 1) 25%, rgba(39, 43, 48, 1) 100%);
+    background: radial-gradient(circle, rgba(67, 72, 79, 1) 25%, rgba(39, 43, 48, 1) 100%);
+    background-color: #272b30;
+    box-shadow: inset 0px 0px 10px rgba(12, 13, 14, 0.9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#43484f", endColorstr="#272b30", GradientType=1);
+    min-height: 100px;
+}
+
+.fact-footer {
+    color: #272b30;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.fact-footer--txtlg {
+    color: #272b30;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.fact-header--left {
+    color: #272b30;
+    float: left;
+    min-width: 150px;
+    position: relative;
+    text-align: left;
+}
+
+.fact-header--left-bold {
+    font-weight: 600;
+}
+
+.fact-header--right {
+    color: #272b30;
+    float: right;
+    min-width: 150px;
+    position: relative;
+    text-align: right;
+}
+
+.fact-header--right-bold {
+    font-weight: 600;
+}
+
+.form__items-txt--desc-right {
+    color: #272b30;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.form__items-txt {
+    color: #272b30;
+    margin: 0 auto;
+}
+
+.form__items-txt--cod {
+    color: #272b30;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form__items-txt--desc {
+    color: #272b30;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form__items-txt--right {
+    background-color: #fdff8b;
+    border: 1px solid #7a7a7a;
+    color: #272b30;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    padding-top: 3px;
+    text-align: right;
+    width: 85%;
+}
+
+.form__fila-impar {
+    background-color: #c8c8c8;
+}
+
+.form__fila-par {
+    background-color: #c8c8c8c4;
+}
+
+.invoice-logo {
+    height: 75px;
+    vertical-align: top;
+    width: auto;
+}
+
+.low-res {
+	display: none;
+}
+
+#navegacion {
+    height: 60px;
+}
+
+.navegacion__img--lab-logo {
+    height: 32px;
+    margin-left: 8px;
+    vertical-align: top;
+}
+
+.navegacion__titulo {
+    background: #c8c8c8;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700 !important;
+    text-shadow: 2px 5px 5px rgba(67, 72, 79, 0.2);
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+    -webkit-background-clip: text;
+}
+
+.pie {
+    height: 60px;
+}
+
+#pie__img--desafiolatam-logo {
+    height: 23px;
+    padding-right: 5px;
+}
+
+#pie__img--ecamp-logo {
+    height: 25px;
+    vertical-align: top;
+}
+
+.sii-text {
+    float: right;
+    position: relative;
+    text-align: center;
+    width: 250px;
+}
+
+.sii-text--red {
+    color: #ff0000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sii-text--white {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+}
